@@ -41,3 +41,5 @@ for row in range(2, 50):
         customer_devices.write('        protocol: ssh\n')
         customer_devices.write('        port: 22\n')
 customer_devices.close()
+
+print('Yaml file built!')
