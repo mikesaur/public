@@ -1,0 +1,44 @@
+from openpyxl import load_workbook
+import sys
+
+excel_file = sys.argv[1] # Get first argument from command line
+
+wb = load_workbook(excel_file)
+ws = wb[wb.sheetnames[0]]
+
+
+customer_name = sys.argv[2] # Get second argument from command line
+
+customer_devices = open('customer_name +'_devices.yaml', 'w')
+
+uname = sys.argv[3]
+password = sys.argv[4]
+
+customer_devices.write('testbed:\n')
+customer_devices.write('\n')
+customer_devices.write('   name: ' + customer_name + '\n')
+customer_devices.write('\n')
+customer_devices.write('\n')
+customer_devices.write('devices:\n')
+
+for row in range(2, 50):
+    router_name = ws.cell(row=row, column=1)
+    router_ip = ws.cell(row=row, column=2)
+    router_type = ws.cell(row=row, column=3)
+    if router_name.value is not None:
+        customer_devices.write('  ' + router_name.value + ':\n')
+        customer_devices.write('    alias: ' + router_name.value + '\n')
+        customer_devices.write('    os: ios' + str(router_type.value) + '\n')
+        customer_devices.write('    type: router\n')
+        customer_devices.write('    tacacs:\n')
+        customer_devices.write('        username: ' + uname +' \n')
+        customer_devices.write('    passwords:\n')
+        customer_devices.write('        tacacs: ' + password +' \n')
+        customer_devices.write('    connections:\n')
+        customer_devices.write('      defaults:\n')
+        customer_devices.write('        class: unicon.Unicon\n')
+        customer_devices.write('      console:\n')
+        customer_devices.write('        ip: ' + router_ip.value + '\n')
+        customer_devices.write('        protocol: ssh\n')
+        customer_devices.write('        port: 22\n')
+customer_devices.close()
