@@ -43,3 +43,4 @@ for row in range(2, 50):
 customer_devices.close()
 
 print('Yaml file built!!')
+print('This is a test')
