@@ -1,22 +1,21 @@
 from openpyxl import load_workbook
 import sys
 
-excel_file = sys.argv[1] # Get first argument from command line
+
+testbed_name = sys.argv[1]
+excel_file = sys.argv[2]
 
 wb = load_workbook(excel_file)
 ws = wb[wb.sheetnames[0]]
 
-
-customer_name = sys.argv[2] # Get second argument from command line
-
-customer_devices = open('customer_name +'_devices.yaml', 'w')
+customer_devices = open(testbed_name + '_devices.yaml', 'w')
 
 uname = sys.argv[3]
 password = sys.argv[4]
 
 customer_devices.write('testbed:\n')
 customer_devices.write('\n')
-customer_devices.write('   name: ' + customer_name + '\n')
+customer_devices.write('   name: ' + testbed_name + '\n')
 customer_devices.write('\n')
 customer_devices.write('\n')
 customer_devices.write('devices:\n')
