@@ -1,17 +1,16 @@
 from openpyxl import load_workbook
-import sys
+from sys import argv
 
-
-testbed_name = sys.argv[1]
-excel_file = sys.argv[2]
+testbed_name = argv[1]
+excel_file = argv[2]
 
 wb = load_workbook(excel_file)
 ws = wb[wb.sheetnames[0]]
 
-customer_devices = open(testbed_name + '_devices.yaml', 'w')
+customer_devices = open(testbed_name + '_devices.yaml', 'w')  # Create file
 
-uname = sys.argv[3]
-password = sys.argv[4]
+username = argv[3]
+password = argv[4]
 
 customer_devices.write('testbed:\n')
 customer_devices.write('\n')
@@ -30,9 +29,9 @@ for row in range(2, 50):
         customer_devices.write('    os: ios' + str(router_type.value) + '\n')
         customer_devices.write('    type: router\n')
         customer_devices.write('    tacacs:\n')
-        customer_devices.write('        username: ' + uname +' \n')
+        customer_devices.write('        username: ' + username + ' \n')
         customer_devices.write('    passwords:\n')
-        customer_devices.write('        tacacs: ' + password +' \n')
+        customer_devices.write('        tacacs: ' + password + ' \n')
         customer_devices.write('    connections:\n')
         customer_devices.write('      defaults:\n')
         customer_devices.write('        class: unicon.Unicon\n')
