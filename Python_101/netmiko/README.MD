@@ -1,4 +1,3 @@
-https://pynet.twb-tech.com/blog/automation/netmiko-grep.html<br><br>
 https://pynet.twb-tech.com/blog/automation/netmiko-tools.html
 
 ---
