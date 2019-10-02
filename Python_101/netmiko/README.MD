@@ -1,0 +1,1 @@
+https://pynet.twb-tech.com/blog/automation/netmiko-grep.html
