@@ -1,11 +1,11 @@
-Python 101
+<H1><font color="blue">Python 101</H1></font>
 
 Below are 4 great open source Python modules that I recommend.
 
-<b>Paramiko<b> - https://docs.paramiko.org/en/2.6/
+<font color='green'><b>Paramiko</b></font> - https://docs.paramiko.org/en/2.6/
 
-<b>NetMiko<b> - https://github.com/ktbyers/netmiko
+<font color='green'><b>NetMiko</b></font> - https://github.com/ktbyers/netmiko
 
-<b>Napalm<b> - https://napalm.readthedocs.io/en/latest/
+<font color='green'><b>Napalm</b></font> - https://napalm.readthedocs.io/en/latest/
 
-<b>pyATS/Genie<b> - https://developer.cisco.com/pyats/
+<font color='green'><b>pyATS/Genie</b></font> - https://developer.cisco.com/pyats/
