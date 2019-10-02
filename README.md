@@ -1,1 +1,2 @@
-Here are some sample Python tools for starting out with Python scripting for Network Engineers
+Here are some sample scripts for starting out with Python for Network Engineers<br>
+There are so many great modules out there to leverage.
