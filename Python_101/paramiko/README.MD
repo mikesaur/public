@@ -28,3 +28,9 @@ Usage: ```python 4_router_connect.py 'show run'```
 - Added a list of routers to run the for loop against
 - Creates a unique file per router
 
+Script: 5_router_connect.py
+
+Usage: ```python 5_router_connect.py 'show run'```
+
+- Added try/except
+- Better error handling
