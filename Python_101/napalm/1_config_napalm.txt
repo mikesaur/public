@@ -1,0 +1,10 @@
+
+l2vpn
+ xconnect group Test_XCONN_Group
+  p2p 2100
+   interface GigabitEthernet0/0/0/5.2100
+   neighbor ipv4 1.1.1.51 pw-id 2100
+    pw-class PW-CLASS
+interface GigabitEthernet0/0/0/5.2100 l2transport
+ encapsulation dot1q 2100
+ rewrite ingress tag pop 1 symmetric

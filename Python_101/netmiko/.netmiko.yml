@@ -39,13 +39,13 @@ XRv01_LAB:
   password: cisco
   secret: cisco
 
-XRv02_LAB:
-  device_type: cisco_xr
-  ip: 10.100.0.52
-  username: cisco
-  password: cisco
-  secret: cisco
-  port: 22
+#XRv02_LAB:
+#  device_type: cisco_xr
+#  ip: 10.100.0.52
+#  username: cisco
+#  password: cisco
+#  secret: cisco
+#  port: 22
 
 XRv03_LAB:
   device_type: cisco_xr
@@ -63,21 +63,19 @@ XRv04_LAB:
   secret: cisco
   port: 22
 
-XRv05_LAB:
-  device_type: cisco_xr
-  ip: 10.100.0.55
-  username: cisco
-  password: cisco
-  secret: cisco
-  port: 22
+#XRv05_LAB:
+#  device_type: cisco_xr
+#  ip: 10.100.0.55
+#  username: cisco
+#  password: cisco
+#  secret: cisco
+#  port: 22
 
 # Lists are groups of devices
 xr_devices:
   - XRv01_LAB
-  - XRv02_LAB
   - XRv03_LAB
   - XRv04_LAB
-  - XRv05_LAB
 
 xe_devices:
   - XE01_LAB
