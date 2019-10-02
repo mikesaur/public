@@ -8,4 +8,4 @@ Below are 4 great open source Python modules that I recommend.
 
 <font color='green'><b>Napalm</b></font> - https://napalm.readthedocs.io/en/latest/
 
-<font color='green'><b>pyATS/Genie</b></font> - https://developer.cisco.com/pyats/
+<span style="color:red"><b>pyATS/Genie</b></span> - https://developer.cisco.com/pyats/
