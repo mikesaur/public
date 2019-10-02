@@ -7,8 +7,8 @@ import getpass
 # Sample Run
 ### python 5_router_connect.py 'show cdp neighbor'
 
-# routers = ['XE01_LAB', 'XE02_LAB', 'XE03_LAB', 'XE04_LAB', 'XE05_LAB'] # List of routers to loop through
-routers = ['XRv01_LAB', 'XRv03_LAB', 'XRv04_LAB']
+# routers = ['XE01_LAB', 'XE02_LAB', 'XE03_LAB', 'XE04_LAB', 'XE05_LAB', 'XRv01_LAB', 'XRv03_LAB', 'XRv04_LAB'] # List of routers to loop through
+# routers = ['XRv01_LAB', 'XRv03_LAB', 'XRv04_LAB']
 command = sys.argv[1]  # Ask user what command they want to run
 
 uname = input('Admin Username: ')
