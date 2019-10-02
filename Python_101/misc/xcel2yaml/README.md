@@ -10,12 +10,6 @@ python get_routers.py {testbed_name} {excel_file_name} {router_uname} {router_pa
 Sample:
 python ger_routers.py MyTestBed routers.xlsx cisco cisco
 
-To install:
 
-1.  Clone the repository
-2.  Build a virtual environment
-    a. virtualenv -p python3 venv
-3. Install python packages
-    a. pip install -r requirements.txt
     
     
