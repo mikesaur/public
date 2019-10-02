@@ -1,4 +1,4 @@
-<H1><font color="blue">Python 101</H1></font>
+<H1><font color="blue">Python 101</font></H1>
 
 Below are 4 great open source Python modules that I recommend.
 
