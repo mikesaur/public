@@ -1,0 +1,87 @@
+---
+
+# Dictionaries are devices
+XE01_LAB:
+  device_type: cisco_ios
+  ip: 10.100.0.61
+  username: cisco
+  password: cisco
+
+XE02_LAB:
+  device_type: cisco_ios
+  ip: 10.100.0.62
+  username: cisco
+  password: cisco
+
+XE03_LAB:
+  device_type: cisco_ios
+  ip: 10.100.0.63
+  username: cisco
+  password: cisco
+
+XE04_LAB:
+  device_type: cisco_ios
+  ip: 10.100.0.64
+  username: cisco
+  password: cisco
+
+XE05_LAB:
+  device_type: cisco_ios
+  ip: 10.100.0.65
+  username: cisco
+  password: cisco
+
+
+XRv01_LAB:
+  device_type: cisco_xr
+  ip: 10.100.0.51
+  username: cisco
+  password: cisco
+  secret: cisco
+
+XRv02_LAB:
+  device_type: cisco_xr
+  ip: 10.100.0.52
+  username: cisco
+  password: cisco
+  secret: cisco
+  port: 22
+
+XRv03_LAB:
+  device_type: cisco_xr
+  ip: 10.100.0.53
+  username: cisco
+  password: cisco
+  secret: cisco
+  port: 22
+
+XRv04_LAB:
+  device_type: cisco_xr
+  ip: 10.100.0.54
+  username: cisco
+  password: cisco
+  secret: cisco
+  port: 22
+
+XRv05_LAB:
+  device_type: cisco_xr
+  ip: 10.100.0.55
+  username: cisco
+  password: cisco
+  secret: cisco
+  port: 22
+
+# Lists are groups of devices
+xr_devices:
+  - XRv01_LAB
+  - XRv02_LAB
+  - XRv03_LAB
+  - XRv04_LAB
+  - XRv05_LAB
+
+xe_devices:
+  - XE01_LAB
+  - XE02_LAB
+  - XE03_LAB
+  - XE04_LAB
+  - XE05_LAB
