@@ -8,7 +8,7 @@ Usage:
 python get_routers.py {testbed_name} {excel_file_name} {router_uname} {router_password}
 
 Sample:
-python ger_routers.py MyTestBed routers.xlsx cisco cisco
+python get_routers.py MyTestBed routers.xlsx cisco cisco
 
 
     
