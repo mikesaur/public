@@ -3,6 +3,9 @@ https://pynet.twb-tech.com/blog/automation/netmiko-tools.html
 ---
 Grep your whole network!<br>
 
+Change to the Netmiko directory:<br>
+```cd ../netmiko```<br>
+
 Test your yaml file first:<br> 
 ```./netmiko-grep --list-devices```
 

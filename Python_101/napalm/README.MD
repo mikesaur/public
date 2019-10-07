@@ -1,17 +1,23 @@
 https://napalm.readthedocs.io/en/latest/index.html<br>
 
 Config push<br>
+- Change in to the Napalm directory:<br>
+```cd ../napalm```<br>
 
-- IOS-XR Push config: ```python 1_push_config.py xr_routername```
+- IOS-XR Push config:<br>
+ ```python 1_push_config.py xr_routername```<br>
 
-- IOS-XE Push config: ```python 2_push_config.py xe_routername```
+- IOS-XE Push config:<br>
+ ```python 2_push_config.py xe_routername```<br>
 
 ---
 Config rollback<br>
 
-- IOS-XR Rollback: ```python xr_rollback.py xr_routername```
+- IOS-XR Rollback:<br>
+ ```python xr_rollback.py xr_routername```<br>
 
-- IOS-XE Rollback: ```python xe_rollback.py xe_routername```
+- IOS-XE Rollback:<br>
+ ```python xe_rollback.py xe_routername```<br>
 
 ---
 
