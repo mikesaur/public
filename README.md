@@ -25,6 +25,7 @@ Step 6: Setup a virtual environment:<br>
     -  ```virtualenv -p python3 venv```<br>
     - ```source venv/bin/activate```
  
-  
+ 
+ [Go to NetMiko examples](https://github.com/mikesaur/public/tree/master/Python_101/netmiko)
 
  
