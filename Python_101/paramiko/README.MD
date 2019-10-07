@@ -5,7 +5,8 @@ Script: 1_router_connect.py
 Usage: ```python 1_router_connect.py```
 
 - Most basic connection to a router
-- Statically assigned variables
+- This script automates an SSH session in to a router and runs: 'show version'
+- Statically assigned variables within the script
 
 Script: 2_router_connect.py
 
