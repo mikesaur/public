@@ -22,8 +22,8 @@ Step 5: Install Python package manager:<br>
 Step 5: Install python virtual environment: ```sudo apt-get install virtualenv```
 
 Step 6: Setup a virtual environment:<br>
- - ```virtualenv -p python3 venv```
- - ```source venv/bin/activate```
+    -  ```virtualenv -p python3 venv```<br>
+    - ```source venv/bin/activate```
  
   
 
