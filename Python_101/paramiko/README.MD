@@ -34,3 +34,5 @@ Usage: ```python 5_router_connect.py 'show run'```
 
 - Added try/except
 - Better error handling
+
+ [NEXT: Go to Netmiko examples](https://github.com/mikesaur/public/tree/master/Python_101/netmiko)
