@@ -1,3 +1,4 @@
+- Change in to the Paramiko directory: ```cd paramiko```
 
 Script: 1_router_connect.py
 
