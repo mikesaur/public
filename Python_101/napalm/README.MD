@@ -21,3 +21,5 @@ Napalm Command Line Tool<br>
 ```napalm --user cisco --password cisco --vendor ios XE01_LAB call get_snmp_information```
 
 Built-in calls: https://napalm.readthedocs.io/en/latest/support/index.html
+
+[NEXT: Go to Napalm examples](https://github.com/mikesaur/public/tree/master/Python_101/napalm)
