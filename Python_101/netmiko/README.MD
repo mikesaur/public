@@ -21,3 +21,4 @@ Push config snippets from a file:<br>
 Run show command across the network.<br>
 ```./netmiko-show --cmd "show run | i ntp" xe_devices```
 
+[NEXT: Go to Napalm examples](https://github.com/mikesaur/public/tree/master/Python_101/napalm)

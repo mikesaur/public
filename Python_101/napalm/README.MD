@@ -22,4 +22,3 @@ Napalm Command Line Tool<br>
 
 Built-in calls: https://napalm.readthedocs.io/en/latest/support/index.html
 
-[NEXT: Go to Napalm examples](https://github.com/mikesaur/public/tree/master/Python_101/napalm)
