@@ -10,7 +10,7 @@ Usage: ```python 1_router_connect.py```
 
 Script: 2_router_connect.py
 
-Usage: ```python 2_router_connect.py router1 'show run'```
+Usage: ```python 2_router_connect.py XE01_LAB 'show run'```
 
 - Securely read in password from CLI with getpass module
 - Added a status message - Retrieving output from:
@@ -18,7 +18,7 @@ Usage: ```python 2_router_connect.py router1 'show run'```
 
 Script: 3_router_connect.py
 
-Usage: ```python 3_router_connect.py router1 'show run'```
+Usage: ```python 3_router_connect.py XE01_LAB 'show run'```
 
 - Added writing returned output to a file
 - Swapping lines 22 and 23 make for unique file based on router name
