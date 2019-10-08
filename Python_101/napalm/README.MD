@@ -32,5 +32,5 @@ Napalm Command Line Tool<br>
 ```napalm --user cisco --password cisco --vendor iosxr XRv01_LAB call get_interfaces_counters```<br>
 ```napalm --user cisco --password cisco --vendor ios XE01_LAB call get_snmp_information```
 
-Built-in calls: https://napalm.readthedocs.io/en/latest/support/index.html
+More Built-in calls: https://napalm.readthedocs.io/en/latest/support/index.html
 
