@@ -8,16 +8,16 @@ Config push<br>
  ```python 1_push_config.py XRv01_LAB```<br>
 
 - IOS-XE Push config:<br>
- ```python 2_push_config.py xe_routername```<br>
+ ```python 2_push_config.py XE01_LAB```<br>
 
 ---
 Config rollback<br>
 
 - IOS-XR Rollback:<br>
- ```python xr_rollback.py xr_routername```<br>
+ ```python xr_rollback.py XRv01_LAB```<br>
 
 - IOS-XE Rollback:<br>
- ```python xe_rollback.py xe_routername```<br>
+ ```python xe_rollback.py XE01_LAB```<br>
 
 ---
 
