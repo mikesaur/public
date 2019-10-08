@@ -20,14 +20,12 @@ Step 2: Update Ubuntu:<br>
 Step 2: Install unzip:<br>
  ```sudo apt install unzip```<br>
 
-Step 3: Install python package manger:<br>
- ```sudo apt install python3-pip```<br>
 
 Step 3: Install python virtual environment:<br>
- ```pip3 install virtualenv```<br>
+ ```sudo apt install virtualenv```<br>
 
 Step 4: Setup a virtual environment:<br>
-    -  ```virtualenv -p python3 venv```<br>
+    - ```virtualenv -p python3 venv```<br>
     - ```source venv/bin/activate```<br>
 
 Step 5: Clone repository:<br>
