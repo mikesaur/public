@@ -51,6 +51,6 @@ Step 12: VPN in to CCI Systems Automation Lab<br>
 Step 13: Validate you can ping a router in the lab:<br>
 ```ping XE01_LAB```<br>
 
- Step 14: [NEXT: Go to Paramiko examples](https://github.com/mikesaur/public/tree/master/Python_101/paramiko)
+Step 14: [NEXT: Go to Paramiko examples](https://github.com/mikesaur/public/tree/master/Python_101/paramiko)
 
  
