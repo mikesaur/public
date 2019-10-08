@@ -5,7 +5,7 @@ Config push<br>
 ```cd ../napalm```<br>
 
 - IOS-XR Push config:<br>
- ```python 1_push_config.py xr_routername```<br>
+ ```python 1_push_config.py XRv01_LAB```<br>
 
 - IOS-XE Push config:<br>
  ```python 2_push_config.py xe_routername```<br>

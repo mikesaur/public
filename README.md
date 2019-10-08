@@ -8,12 +8,14 @@ Step 1: Install Windows Subsystem for Linux (WSL)<br>
 
 - Instructions: 
  [WSL install instructions](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-- Make sure to do the update/upgrade steps on the "activate your WSL install"<br>
 
 Step 1: Open Ubuntu WSL:
 - From the Start button type in: "ubuntu"
 - You'll see the Ubuntu 18.04 LTS app show up, click on it
 - You should now be in a bash shell prompt (Ubuntu)
+
+Step 2: Update Ubuntu:<br>
+```sudo apt update && sudo apt upgrade```
 
 Step 2: Install unzip:<br>
  ```sudo apt install unzip```<br>
