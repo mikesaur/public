@@ -17,7 +17,16 @@ Search all XE routers running-config for a string:<br>
 
 ---
 Push config snippets from a file:<br>
-- In Windows 
+    - In Windows open SublimeText3 (or other code editor)<br>
+    - In SublimeText3 go to: File --> Open Folder<br>
+        - Browse your desktop, linux file system shortcut, then the "Python_101" folder<br>
+        - In SublimeText3 on the left you should see the netmiko folder<br>
+        - Choose the drop-down triangle to show files in the netmiko folder<b>
+        - Click on the 'xeconfig.txt' file to edit<br>
+        - You'll see 2 ntp servers.  Randomly type 2 different ones (any valid IPv4 addresses)<br>
+        - Save the file <br>
+    - Execute the config lines below to run netmiko-cfg tool <br>
+     
 ```./netmiko-cfg --infile xeconfig.txt xe_devices```<br><br>
 ```./netmiko-cfg --cmd 'ntp server 15.15.15.15' xe_devices```
 
