@@ -20,7 +20,7 @@ Script: 3_router_connect.py<br>
 ```python 3_router_connect.py XE01_LAB 'show run'```
 
 - Added writing returned output to a file (router_log.txt)
-- Swapping lines 22 and 23 in the script make for unique file based on router name
+- FYI: Swapping lines 22 and 23 in the script make for unique file based on router name
 
 Script: 4_router_connect.py<br>
 ```python 4_router_connect.py 'show run'```
