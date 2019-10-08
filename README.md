@@ -40,7 +40,7 @@ Step 9: Install python modules:<br>
  ```pip3 install -r requirements.txt```<br>
    
 Step 10: Add host entries to /etc/hosts<br>
-```sudo cat host_additions.txt | sudo tee -a /etc/hosts```
+```sudo cat hosts_add.txt | sudo tee -a /etc/hosts```
 
 Step 11: VPN in to CCI Systems Automation Lab<br>
 
