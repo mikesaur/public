@@ -1,3 +1,5 @@
+<i>Note: username/pass to the routers is cisco/cisco<i>
+
 - Change in to the Paramiko directory: ```cd paramiko```
 
 Script: 1_router_connect.py<br>
