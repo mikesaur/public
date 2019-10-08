@@ -21,9 +21,10 @@ Push config snippets from a file:<br>
     - In SublimeText3 go to: File --> Open Folder<br>
         - Browse your desktop, linux file system shortcut, then the "Python_101" folder<br>
         - In SublimeText3 on the left you should see the netmiko folder<br>
-        - Choose the drop-down triangle to show files in the netmiko folder<b>
+        - Choose the drop-down triangle to show files in the netmiko folder<br>
         - Click on the 'xeconfig.txt' file to edit<br>
-        - You'll see 2 ntp servers.  Randomly type 2 different ones (any valid IPv4 addresses)<br>
+        - You'll see 2 ntp servers<br> 
+        - Randomly type 2 different ones (any valid IPv4 addresses)<br>
         - Save the file <br>
     - Execute the config lines below to run netmiko-cfg tool <br>
      
