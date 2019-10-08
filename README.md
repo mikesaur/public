@@ -20,43 +20,39 @@ Step 2: Open Ubuntu WSL:
 Step 3: Update Ubuntu:<br>
 ```sudo apt update && sudo apt upgrade```
 
-Step 4: Install unzip:<br>
- ```sudo apt install unzip```<br>
-
-
-Step 5: Install python virtual environment:<br>
+Step 4: Install python virtual environment:<br>
  ```sudo apt install virtualenv```<br>
 
-Step 6: Setup a virtual environment:<br>
+Step 5: Setup a virtual environment:<br>
     - ```virtualenv -p python3 venv```<br>
     - ```source venv/bin/activate```<br>
 
-Step 7: Clone repository:<br>
+Step 6: Clone repository:<br>
  ```git clone https://github.com/mikesaur/public.git```
 
-Step 8: Install python package manager:<br>
+Step 7: Install python package manager:<br>
 ```sudo apt install python3-pip```<br>
 
-Step 9: Move in to the Python_101 directory:<br>
+Step 8: Move in to the Python_101 directory:<br>
  ```cd public/Python_101```<br> 
  
-Step 10: Install python modules:<br>
+Step 9: Install python modules:<br>
  ```pip3 install -r requirements.txt```<br>
    
-Step 11: Add host entries to /etc/hosts<br>
+Step 10: Add host entries to /etc/hosts<br>
 ```sudo cat host_additions.txt | sudo tee -a /etc/hosts```
 
-Step 12: VPN in to CCI Systems Automation Lab<br>
+Step 11: VPN in to CCI Systems Automation Lab<br>
 
-Step 13: Validate you can ping a router in the lab:<br>
+Step 12: Validate you can ping a router in the lab:<br>
 ```ping XE01_LAB```<br>
 
-Step 14: Create windows shortcut to Linux file system
+Step 13: Create windows shortcut to Linux file system
 - Right-click on desktop, add new shortcut
 - Path: 
 ```C:\Users\username\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_*\LocalState\rootfs\home\linuxusername\public```
 - at the '*' it doesn't matter whats after the underscore<br>
 
-Step 15: [NEXT: Go to Paramiko examples](https://github.com/mikesaur/public/tree/master/Python_101/paramiko)
+Step 14: [NEXT: Go to Paramiko examples](https://github.com/mikesaur/public/tree/master/Python_101/paramiko)
 
  
