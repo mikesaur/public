@@ -31,15 +31,18 @@ Step 4: Setup a virtual environment:<br>
 Step 5: Clone repository:<br>
  ```git clone https://github.com/mikesaur/public.git```
 
-Step 6: Install python modules:<br>
- ```pip3 install -r requirements.txt```<br>
-   
-Step 7: Add host entries to /etc/hosts<br>
-```sudo cat host_additions.txt | sudo tee -a /etc/hosts```
+Step 5: Install python package manager:<br>
+```sudo apt install python3-pip```<br>
 
-Step 8: Move in to the Python_101 directory:<br>
+Step 6: Move in to the Python_101 directory:<br>
  ```cd public/Python_101```<br> 
  
+Step 7: Install python modules:<br>
+ ```pip3 install -r requirements.txt```<br>
+   
+Step 8: Add host entries to /etc/hosts<br>
+```sudo cat host_additions.txt | sudo tee -a /etc/hosts```
+
 Step 9: VPN in to CCI Systems Automation Lab<br>
 
 Step 10: Validate you can ping a router in the lab:<br>
