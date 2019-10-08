@@ -5,9 +5,15 @@ Config push<br>
 ```cd ../napalm```<br>
 
 - IOS-XR Push config:<br>
+- Prior to executing this script update the 1_config_napalm.txt file in the napalm directory.<br>
+    - Change the number 2100 in all spots to a random but valid 4 digit VLAN number.<br>
+    - Execute the script:<br>
  ```python 1_push_config.py XRv01_LAB```<br>
 
 - IOS-XE Push config:<br>
+- Prior to executing this script update the 2_config_napalm.txt file in the napalm directory.<br>
+    - Change the number name-server IP to a random but valid IPv4 address.<br>
+    - Execute the script:<br>
  ```python 2_push_config.py XE01_LAB```<br>
 
 ---

@@ -1,4 +1,3 @@
-
 l2vpn
  xconnect group Test_XCONN_Group
   p2p 2100
