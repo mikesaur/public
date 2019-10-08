@@ -17,6 +17,7 @@ Search all XE routers running-config for a string:<br>
 
 ---
 Push config snippets from a file:<br>
+- In Windows 
 ```./netmiko-cfg --infile xeconfig.txt xe_devices```<br><br>
 ```./netmiko-cfg --cmd 'ntp server 15.15.15.15' xe_devices```
 

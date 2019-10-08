@@ -53,6 +53,10 @@ Step 13: Create windows shortcut to Linux file system
 ```C:\Users\username\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu18.04onWindows_*\LocalState\rootfs\home\linuxusername\public```
 - at the '*' it doesn't matter whats after the underscore<br>
 
+Step 13: Install SublimeText3 - Optional <br>
+    - If you do not have a code editor go to: <br>
+    ```https://download.sublimetext.com/Sublime%20Text%20Build%203211%20Setup.exe``` 
+    
 Step 14: [NEXT: Go to Paramiko examples](https://github.com/mikesaur/public/tree/master/Python_101/paramiko)
 
  

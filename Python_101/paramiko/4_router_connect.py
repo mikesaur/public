@@ -18,8 +18,6 @@ password = getpass.getpass('Admin Password: ')
 if password is '':
     password = 'cisco'
 
-
-
 for router in routers: # do the following code on each router
 
     print('Retrieving output from: ' + router)
